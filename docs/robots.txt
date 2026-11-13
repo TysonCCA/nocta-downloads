@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tysoncca.github.io/nocta-downloads/sitemap.xml
