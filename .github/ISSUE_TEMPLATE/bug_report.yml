@@ -1,0 +1,49 @@
+name: Fehler melden
+description: Einen reproduzierbaren Fehler in NOCTA oder auf der Downloadseite melden.
+title: "[Fehler] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für einen nachvollziehbaren Bericht. Dieses Issue ist öffentlich. Keine Tokens, API-Schlüssel, privaten Musikpfade oder unbereinigten Protokolle einfügen.
+        NOCTA 2.0.0 ist eine unsignierte Vorschau. Windows-Schutzfunktionen bitte nicht deaktivieren.
+  - type: input
+    id: version
+    attributes:
+      label: NOCTA-Version oder Website
+      placeholder: "Zum Beispiel: 2.0.0 Vorschau / Downloadseite"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows-Version / Browser
+      placeholder: "Zum Beispiel: Windows 11 x64 / Edge"
+    validations:
+      required: true
+  - type: dropdown
+    id: source
+    attributes:
+      label: Betroffener Bereich
+      options:
+        - Lokale Musik
+        - Spotify
+        - Equalizer / Ausgabegerät
+        - Installation / Update
+        - Listening Loft / Darstellung
+        - Downloadwebsite
+        - Anderer Bereich
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte und beobachtetes Verhalten
+      description: Was hast du gemacht, was hast du erwartet und was ist tatsächlich passiert?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Zusätzliche Angaben
+      description: Bei Audiofehlern Ausgabegerät, Wiedergabequelle und Dateiformat nennen. Sensible Angaben aus Bildern/Protokollen entfernen.

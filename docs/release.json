@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "channel": "preview",
+  "published": "2026-11-15",
+  "download": "https://github.com/TysonCCA/nocta-downloads/releases/download/v2.0.0/NOCTA-Setup.exe",
+  "release": "https://github.com/TysonCCA/nocta-downloads/releases/tag/v2.0.0",
+  "bytes": 261236736,
+  "sha256": "146A9DAF3183E294B85FFA6D2E0D8FA09672D4A9CE07D5C2CF04E8C9B5B78BEC",
+  "unsigned": true,
+  "stableVersion": "1.2.0"
+}

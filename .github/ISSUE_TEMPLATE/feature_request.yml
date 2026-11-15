@@ -1,0 +1,18 @@
+name: Verbesserung vorschlagen
+description: Einen konkreten Ablauf oder eine Funktion verbessern.
+title: "[Idee] "
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Was möchtest du erreichen?
+      description: Beschreibe deinen Ablauf und was dir dabei noch fehlt.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Dein Vorschlag
+      description: Wie sollte es sich verhalten? Welche Alternative verwendest du bisher?
+    validations:
+      required: true
